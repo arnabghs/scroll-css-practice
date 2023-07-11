@@ -1,4 +1,4 @@
-import React, {useLayoutEffect, useRef} from 'react';
+import React from 'react';
 import './App.scss';
 
 
@@ -9,6 +9,7 @@ function App() {
                 <div className="clip">
                     <div className="video_clip">
                         <iframe
+                            title="watch"
                             src="https://player.vimeo.com/video/468155263?&api=1&controls=0&background=1&autoplay=1&loop=1&mute=1"
                             allow="autoplay;"></iframe>
                     </div>
